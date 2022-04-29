@@ -27,14 +27,19 @@ If you think the code can be imported and used in other projects, then it should
 This directory is a good way to explicitly communicate that the code in this directory is safe for use by others.
 
 ### /resources
+Database migrations and seeds etc
 
 ### /config
 Configuration file templates or default configs, possibly to be mapped from .env files.
 
 ### /bin
+Binaries built from `/cmd` directory.
+
 ### /deploy
+Deployment configurations and templates.
+
 ### /docs
+Design and user documents (in addition to your godoc generated documentation).
+
 ### /testdata
-
-
-
+Test related data eg: seed files etc which will be used by tests.
